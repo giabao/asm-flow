@@ -7,3 +7,4 @@ metals.sbt
 /*/target
 /*/*/target
 /project/**/target
+/scalapx/src/main/resources
