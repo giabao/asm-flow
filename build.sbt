@@ -9,7 +9,7 @@ lazy val `asm-flow` = project.in(file("."))
     libraryDependencies ++= Seq(
       asm("tree"),
       zio("streams"),
-//      zio("test-junit") % Test,
+      zio("test-junit") % Test,
     ),
 //    testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework"),
   )
