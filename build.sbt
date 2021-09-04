@@ -7,12 +7,9 @@ lazy val `asm-flow` = project.in(file("."))
     version := "0.1.0",
     scalaVersion := "3.0.1",
     libraryDependencies ++= Seq(
-      asm("util"), asm("tree"), asm("analysis"),
+      asm("tree"),
       zio("streams"),
-      zio("test") % Test,
-      zio("test-sbt") % Test,
-      zio("test-junit") % Test,
-//      "org.scalatest" %% "scalatest" % "3.2.9" % Test,
+//      zio("test-junit") % Test,
     ),
 //    testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework"),
   )
